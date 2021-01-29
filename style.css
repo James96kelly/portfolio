@@ -8,23 +8,6 @@
 	font-family: 'Poppins', sans-serif;
 	scroll-behavior: smooth;
 }
-a[social]:link 
-{
-  color: #2196f3;
-}
-a[social]:visited 
-{
-  color: #2196f3;
-}
-/* mouse over link */
-a[social]:hover 
-{
-  color: grey;
-}
-a[social]:active 
-{
-  color: #2196f3;
-}
 section
 {
 	padding: 100px;
@@ -208,8 +191,8 @@ img
 {
 	/*max-width: 80px;
 	filter: invert(1);*/
-	max-width: 100%;
-	min-height:60%
+	max-width: 70%;
+	min-height:50%
 }
 .employment .content .employmentBx h2
 {
@@ -395,6 +378,26 @@ img
 .projects .content .projectsBx
 {
 	margin: 10px;
+}
+a.social
+{
+  color: #2196f3;
+}
+a.social:link 
+{
+  color: #2196f3;
+}
+a.social:visited 
+{
+  color: #2196f3;
+}
+a.social:hover 
+{
+  color: grey;
+}
+a.social:active 
+{
+  color: #2196f3;
 }
 
 /*Responsive*/

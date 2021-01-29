@@ -6,6 +6,8 @@
 	<title>Personal Portfolio | Responsive Website Design</title>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" type="text/php" href="contact.php">
+
 
 </head>
 <body>
@@ -128,7 +130,6 @@
 	<section class="education" id="education">
 		<div class="heading white">
 			<h2>Education</h2>
-			<p> Going to add a load of writing in here. this is only some text to show.</p>
 		</div>
 		<div class="content">
 			<div class="educationBx">
@@ -166,9 +167,7 @@
 				<img src="product4.jpg">
 			</div>
 		</div>
-		<div class="heading">
-			<a href="#" class="btn">View More</a>
-		</div>
+
 	</section>
 
 
@@ -208,16 +207,48 @@
 						<p> James96kelly@yahoo.ie</p>
 					</div>
 					</div>
+
+					
+				<div class="box">
+					<div class="icon">
+						<i class="fa fa-linkedin"></i>
+					</div>
+					<div class="text">
+						<h3><a href="https://www.linkedin.com/in/jamesk1996/" >LinkedIn</a> </h3>
+					</div>
+					</div>
+
+				<div class="box">
+					<div class="icon">
+						<i class="fa fa-github"></i>
+					</div>
+					<div class="text">
+						<h3><a href="https://github.com/James96kelly?tab=repositories" >GitHub</a> </h3>
+					</div>
+					</div>
 				</div>				
 			</div>
 			<div class="formBx">
-				<form>
+
+
+<!--<?=$thankYou ?>-->
+				<form method="post" action="contact.php">
+					<h3>Message Me</h3>
+					<input type="text" name="sender" placeholder="Full Name">
+					<input type="email" name="senderEmail" placeholder="Email">
+					<textarea name="message" placeholder="Your Message"></textarea>
+					<input type="submit" value="Send">
+				</form>
+
+
+
+				<!--<form>
 					<h3>Message Me</h3>
 					<input type="text" name="" placeholder="Full Name">
 					<input type="email" name="" placeholder="Email">
 					<textarea placeholder="Your Message"></textarea>
 					<input type="submit" value="Send">
-				</form>
+				</form>-->
 			</div>
 		</div>
 	</section>

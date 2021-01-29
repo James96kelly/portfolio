@@ -8,6 +8,24 @@
 	font-family: 'Poppins', sans-serif;
 	scroll-behavior: smooth;
 }
+a:link {
+  color: #2196f3;
+}
+
+/* visited link */
+a:visited {
+  color: #2196f3;
+}
+
+/* mouse over link */
+a:hover {
+  color: grey;
+}
+
+/* selected link */
+a:active {
+  color: #2196f3;
+}
 section
 {
 	padding: 100px;

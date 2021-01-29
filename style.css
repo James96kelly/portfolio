@@ -238,6 +238,7 @@ img
 	font-style: italic;
 	font-size: 16px;
 	font-weight: 300;
+	text-align: center;
 }
 .education .content .educationBx h3
 {
@@ -247,6 +248,7 @@ img
 	font-weight: 600;
 	font-size: 20px;
 	line-height: 1em;
+	text-align: center;
 }
 .education .content .educationBx h3 span
 {

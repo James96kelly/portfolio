@@ -189,9 +189,9 @@ img
 }
 .employment .content .employmentBx img
 {
-	/*max-width: 80px;
-	filter: invert(1);*/
-	max-width: 70%;
+	max-width: 320px;
+	/*filter: invert(1);
+	max-width: 70%;*/
 	min-height:50%
 }
 .employment .content .employmentBx h2

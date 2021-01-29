@@ -8,28 +8,40 @@
 	font-family: 'Poppins', sans-serif;
 	scroll-behavior: smooth;
 }
-a:link {
+
+
+a[social]:link {
   color: #2196f3;
 }
 
-/* visited link */
-a:visited {
+
+a[social]:visited {
   color: #2196f3;
 }
 
 /* mouse over link */
-a:hover {
+a[social]:hover {
   color: grey;
 }
 
-/* selected link */
-a:active {
+
+a[social]:active {
   color: #2196f3;
 }
+
+
+
 section
 {
 	padding: 100px;
 }
+
+
+
+
+
+
+
 .banner
 {
 	position: relative;

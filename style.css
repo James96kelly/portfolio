@@ -15,13 +15,30 @@ section
 .banner
 {
 	position: relative;
-	min-height: 110vh;/* change this to 100*/
+	min-height: 100vh;/* change this to 100*/
 	background: url(banner.jpg);
 	background-size: cover;
 	background-position: right;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+
+		
+
+ 
+
+
+
+  	/*position: relative;
+	min-height: 100vh;/* change this to 100
+	background: url(banner.jpg);
+	background-size: cover;
+	background-position: right;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;*/
+
+
 }
 .banner h2
 {
@@ -365,13 +382,12 @@ img
 .projects .content .projectsBx:hover
 {
 	background: #4682B4;
-
 }
 .projects .content .projectsBx img
 {
 	/*max-width: 80px;*/
 	max-width: 40%;
-	min-height:60%
+	min-height:40%
 }
 .projects .content .projectsBx h2
 {
@@ -508,9 +524,17 @@ a.social:active
 	}
 	.education .content .educationBx
 	{
-		max-width: 170%;
-		padding: 60px 50px;
+
+		padding: 10px 15px;
+
 		margin: 10px;
+
+				max-width: 150%;
+
+		/*max-width: 150%;
+		padding: 60px 50px;
+		margin: 10px;*/
+
 		background: #2196f3;
 	}
 	.education .content .educationBx h3

@@ -227,10 +227,12 @@ img
 }
 .education .content .educationBx
 {
-	max-width: calc(50% - 40px);
-	padding: 60px 40px;
-	margin: 20px;
+	max-width: 100%;
+	padding: 60px 110px;
+	margin: 0px;
 	background: #2196f3;
+	padding-left: auto;
+	padding-right: : auto;
 }
 .education .content .educationBx p
 {
@@ -238,7 +240,7 @@ img
 	font-style: italic;
 	font-size: 16px;
 	font-weight: 300;
-	text-align: center;
+	text-align: center;;
 }
 .education .content .educationBx h3
 {
@@ -508,7 +510,7 @@ a.social:active
 	}
 	.education .content .educationBx
 	{
-		max-width: calc(100% - 20px);
+		max-width: 50%;
 		padding: 40px 20px;
 		margin: 10px;
 		background: #2196f3;

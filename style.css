@@ -229,10 +229,8 @@ img
 {
 	max-width: 100%;
 	padding: 60px 110px;
-	margin: 0px;
+	margin: 10px;
 	background: #2196f3;
-	padding-left: auto;
-	padding-right: : auto;
 }
 .education .content .educationBx p
 {
@@ -510,8 +508,8 @@ a.social:active
 	}
 	.education .content .educationBx
 	{
-		max-width: 50%;
-		padding: 40px 20px;
+		max-width: 100%;
+		padding: 60px 110px;
 		margin: 10px;
 		background: #2196f3;
 	}

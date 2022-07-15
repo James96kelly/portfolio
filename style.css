@@ -274,7 +274,7 @@ img
 .education .content .educationBx h3
 {
 	margin-bottom: 15px;
-	
+	text-align: start;
 	color: #fff;
 	font-weight: 600;
 	font-size: 20px;

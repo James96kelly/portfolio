@@ -246,12 +246,13 @@ img
 
 	flex-wrap: wrap;
 	flex-direction: row;
-	max-width: 100%;*/
+	max-width: 100%;
 
 		display: flex;
 	justify-content: center;
-	flex-wrap: wrap;
-
+	flex-wrap: wrap;*/
+	display: flex;
+	justify-content: center;
 }
 .education .content .educationBx
 {

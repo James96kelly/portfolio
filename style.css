@@ -255,7 +255,7 @@ img
 
 	display: flex;
 
-
+	max-width: 100%;
 }
 .education .content .educationBx
 {

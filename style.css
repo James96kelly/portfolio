@@ -239,13 +239,11 @@ img
 .education .content
 {
 
+/*justify-content: space-between;*/
+
 		display: flex;
-	/*justify-content: space-between;*/
-	flex-wrap: wrap;
-
-
-
 	justify-content: center;
+	flex-wrap: wrap;
 	flex-direction: row;
 
 }
@@ -256,15 +254,6 @@ img
 	margin: 10px;
 	background: #2196f3;
 
-
-			display: flex;
-	/*justify-content: space-between;*/
-	flex-wrap: wrap;
-	justify-content: center;
-	flex-direction: row;
-
-
-
 }
 .education .content .educationBx p
 {
@@ -273,12 +262,7 @@ img
 	font-size: 16px;
 	font-weight: 300;
 	text-align: center;
-
-				display: flex;
-	/*justify-content: space-between;*/
-	flex-wrap: wrap;
-	justify-content: center;
-	flex-direction: row;
+	max-width: 100%;
 
 }
 .education .content .educationBx h3
@@ -290,12 +274,7 @@ img
 	font-size: 20px;
 	line-height: 1em;
 	text-align: center;
-
-				display: flex;
-	/*justify-content: space-between;*/
-	flex-wrap: wrap;
-	justify-content: center;
-	flex-direction: row;
+	max-width: 100%;
 
 }
 .education .content .educationBx h3 span
@@ -303,13 +282,7 @@ img
 	font-size: 14px;
 	font-weight: 400;
 	text-align: center;
-
-				display: flex;
-	/*justify-content: space-between;*/
-	flex-wrap: wrap;
-	justify-content: center;
-	flex-direction: row;
-
+	max-width: 100%;
 
 }
 .contact

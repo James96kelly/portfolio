@@ -264,6 +264,11 @@ img
 	margin: 10px;
 	background: #2196f3;
 
+	justify-content: space-between;
+	display: flex;
+	flex-direction: row;
+	max-width: 100%;
+
 }
 .education .content .educationBx p
 {

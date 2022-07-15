@@ -252,8 +252,10 @@ img
 	justify-content: center;
 	flex-wrap: wrap;*/
 	
-	justify-content: center;
+	justify-content: space-between;
+	display: flex;
 	flex-direction: row;
+	max-width: 100%;
 }
 .education .content .educationBx
 {

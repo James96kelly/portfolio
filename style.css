@@ -240,8 +240,13 @@ img
 {
 
 		display: flex;
-	justify-content: space-between;
+	/*justify-content: space-between;*/
 	flex-wrap: wrap;
+
+
+
+	justify-content: center;
+	flex-direction: row;
 
 }
 .education .content .educationBx

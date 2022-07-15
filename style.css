@@ -155,7 +155,7 @@ header.sticky ul li a
 }
 .content
 {
-	display: flex;
+	/*display: flex;*/
 	justify-content: space-between;
 }
 .contentBx 

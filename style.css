@@ -248,6 +248,10 @@ img
 	padding: 60px 110px;
 	margin: 10px;
 	background: #2196f3;
+
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
 }
 .education .content .educationBx p
 {
@@ -256,6 +260,10 @@ img
 	font-size: 16px;
 	font-weight: 300;
 	text-align: center;;
+
+		display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
 }
 .education .content .educationBx h3
 {
@@ -266,12 +274,20 @@ img
 	font-size: 20px;
 	line-height: 1em;
 	text-align: center;
+
+		display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
 }
 .education .content .educationBx h3 span
 {
 	font-size: 14px;
 	font-weight: 400;
 	text-align: center;
+
+		display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
 }
 .contact
 {
